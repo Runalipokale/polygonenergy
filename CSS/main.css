@@ -1740,7 +1740,7 @@ header {
   -webkit-align-items: center;
   -moz-align-items: center;
   -ms-align-items: center;
-  align-items: center;
+  align-items: right;
   padding: 15px;
   height: 100%;
   transition: 0.3s;
