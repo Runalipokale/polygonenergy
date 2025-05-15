@@ -1091,35 +1091,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 </script>
-<script>
-   //dropdown header menu 
-    const toggles = document.querySelectorAll(".nav-toggle-btn"); // Target each toggle button
 
-    toggles.forEach((toggle) => {
-      toggle.addEventListener("click", (e) => {
-        const menu = toggle.closest(".submenu").querySelector(".nav-list"); // Get the submenu
-        const icon = toggle.querySelector(".dropdown"); // Get the icon
-    
-        // Toggle the menu visibility
-        if (menu.style.display === "block") {
-          menu.style.display = "none"; // Hide submenu
-          icon.classList.remove("fa-caret-up"); // Reset to down arrow
-          icon.classList.add("fa-caret-down");
-        } else {
-          // Close other open menus
-          document.querySelectorAll(".nav-list").forEach((m) => (m.style.display = "none"));
-          document.querySelectorAll(".dropdown").forEach((i) => {
-            i.classList.remove("fa-caret-up");
-            i.classList.add("fa-caret-down");
-          });
-    
-          menu.style.display = "block"; // Show submenu
-          icon.classList.remove("fa-caret-down"); // Change to up arrow
-          icon.classList.add("fa-caret-up");
-        }
-      });
-    });
-
-</script>
     </body>
 </html>
