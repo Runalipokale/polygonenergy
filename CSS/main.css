@@ -3942,3 +3942,21 @@ padding:0 55px;
   margin-top: 50px;
 }
 /* changes */
+
+/* header */
+.cta-btn{
+border-radius: 8px;
+padding: 6px 25px;
+  /* background-image: linear-gradient(transparent),
+    linear-gradient(to right, #d70992, #5B1683 , #00edfe , #ffa03f); */
+    background-color: #3c0178;
+    border: none;
+  background-origin: border-box;
+  cursor: pointer;
+  color: white;
+}
+.cta-btn:hover {
+  background-image: linear-gradient(to right, #00c6ff, #0072ff),
+    linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+}
