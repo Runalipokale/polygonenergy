@@ -1726,7 +1726,8 @@ header {
   color: #3c0178;
   height: 100%;
   visibility: visible;
-  background: #ffa03f;
+  /* background: #ffa03f; */
+  background-color: #e4e3e3;
   opacity: 6;
 }
 .nav-item > a,
@@ -3959,4 +3960,37 @@ padding: 6px 25px;
   background-image: linear-gradient(to right, #00c6ff, #0072ff),
     linear-gradient(to right, #00c6ff, #0072ff);
   color: white;
+}
+.nav-list-ele > .nav-item.active > a {
+  position: relative;
+  padding: 1px 8px;
+  font-size: 16px;
+  line-height: 1.1;
+  color: #000;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background-image: 
+    linear-gradient(#e4e3e3, #e4e3e3), /* inner fill */
+    linear-gradient(to right, #ffa03f 0%, #d70992 25%, #3c0178 70%, #207cca 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
+  font-family: "Public Sans", sans-serif !important;
+}
+.nav-list-ele > .nav-item.active > .nav-toggle-btn {
+  position: relative;
+  padding: 1px 5px;
+  font-size: 16px;
+  line-height: 0.8;
+  color: #000;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background-image: 
+    linear-gradient(#e4e3e3, #e4e3e3), 
+    linear-gradient(to right, #ffa03f 0%, #d70992 25%, #3c0178 70%, #207cca 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
 }
