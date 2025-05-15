@@ -1751,7 +1751,7 @@ header {
   /* background-color: #ffa03f; */
   background-color: #e4e3e3;
   color: #3c0178;
-  display: none;
+  /* display: none; */
   position: absolute;
   transition: 0.4s;
   left: 50%;
