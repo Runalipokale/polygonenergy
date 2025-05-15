@@ -2285,9 +2285,10 @@ ol.custom-list--upperalpha > li:before {
 
 /* changes */
 /* header */
-.header-wrap{
-  display: flex;
-  align-items: center;
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* header */
 .sec-2{
