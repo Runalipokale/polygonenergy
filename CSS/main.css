@@ -1726,8 +1726,8 @@ header {
   color: #3c0178;
   height: 100%;
   visibility: visible;
-  /* background: #ffa03f; */
-  background-color: #e4e3e3;
+  background: #ffa03f;
+  /* background-color: #e4e3e3; */
   opacity: 6;
 }
 .nav-item > a,
@@ -1748,9 +1748,10 @@ header {
 }
 .submenu .nav-list {
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.12);
-  background-color: #ffa03f;
+  /* background-color: #ffa03f; */
+  background-color: #e4e3e3;
   color: #3c0178;
-  display: none;
+  display: block;
   position: absolute;
   transition: 0.4s;
   left: 50%;
@@ -1758,7 +1759,6 @@ header {
   min-width: 250px;
   height: auto;
 }
-
 .nav-item.submenu .nav-list li + li {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
