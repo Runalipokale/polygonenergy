@@ -3961,7 +3961,7 @@ padding: 6px 25px;
     linear-gradient(to right, #00c6ff, #0072ff);
   color: white;
 }
-.nav-list-ele > .nav-item.active > a {
+/* .nav-list-ele > .nav-item.active > a {
   position: relative;
   padding: 1px 8px;
   font-size: 16px;
@@ -3971,14 +3971,14 @@ padding: 6px 25px;
   border: 1px solid transparent;
   border-radius: 6px;
   background-image: 
-    linear-gradient(#e4e3e3, #e4e3e3), /* inner fill */
+    linear-gradient(#e4e3e3, #e4e3e3), 
     linear-gradient(to right, #ffa03f 0%, #d70992 25%, #3c0178 70%, #207cca 100%);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   cursor: pointer;
   font-family: "Public Sans", sans-serif !important;
-}
-.nav-list-ele > .nav-item.active > .nav-toggle-btn {
+} */
+/* .nav-list-ele > .nav-item.active > .nav-toggle-btn {
   position: relative;
   padding: 1px 5px;
   font-size: 16px;
@@ -3993,4 +3993,8 @@ padding: 6px 25px;
   background-origin: border-box;
   background-clip: padding-box, border-box;
   cursor: pointer;
+} */
+
+.nav-list-ele > .nav-item.active > .nav-toggle-btn {
+  font-weight: 700;
 }
