@@ -3706,7 +3706,7 @@ padding:0 55px;
 
 /* gradient text sec */
 .gradient-text-sec{
-  background-image: url('../assets/images/gredient-text-sec-bg.jpeg');
+  background-image: url('../asset/gredient-text-sec-bg.jpeg');
   background-position:bottom;
   background-size: cover;
   background-repeat: no-repeat;
