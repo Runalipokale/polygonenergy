@@ -2943,12 +2943,12 @@ padding:0 55px;
   color: white;
   background-color: transparent;
   border:1px solid white;
-  position: relative;
+  position: absolute;
   left: 85%;
 }
 .commercial-sec-right video{
   width: 100%;
-  height: 100%;
+  height: fit-content;
 }
 .residential-sec-right video{
   width: 100%;
