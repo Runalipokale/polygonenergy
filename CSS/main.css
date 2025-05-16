@@ -3393,6 +3393,13 @@ padding:0 55px;
 
 /* Default grid for large screens stays unchanged */
 
+/* macbook 13inch */
+@media (max-width: 1350px) {
+
+.cs-title{
+  font-size: 5rem;
+}
+}
 /* Tablet: 768px and below */
 @media (max-width: 1024px) {
   .cs-sec {
