@@ -3229,6 +3229,11 @@ padding:0 55px;
   padding: 5px 10px;
 }
 
+@media (max-width:1300px) {
+    .capabality-stm-sec-text{
+    margin: 95px 30px;
+  }
+}
 @media (max-width:1024px) {
   .capability-statement-sec{
     background-size: contain;
