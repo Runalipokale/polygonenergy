@@ -3018,10 +3018,6 @@ padding:0 55px;
 .service-num{
   margin-right: 20px;
 }
-.residential-sec-service-num{
-      margin-right: 10px;
-
-}
 .service-para{
  font-size: 2rem;  
 }
@@ -3332,7 +3328,7 @@ padding:0 55px;
   background-position: center;
   background-size: cover;
 }
-.cs-3{
+.cs3{
      background-image: url('../asset/fyshwick.jpg');
   background-position: center;
   background-size: cover;
@@ -3345,7 +3341,7 @@ padding:0 55px;
   background-size: cover;
 }
 
-.cs-5{
+.cs5{
      background-image: url('../asset/residential-1.jpg');
   background-position: center;
   background-size: cover;
