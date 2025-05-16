@@ -3323,6 +3323,8 @@ padding:0 55px;
 .cs1{
   grid-row: span 2;
   background-image: url('../asset/Evoenergy.jpg');
+  background-position: center;
+  background-size: cover;
 }
 .cs2{
   grid-column: span 2;
