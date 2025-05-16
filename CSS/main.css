@@ -3328,24 +3328,50 @@ padding:0 55px;
 }
 .cs2{
   grid-column: span 2;
+  background-image: url('../asset/The-Murrumbateman-Winery.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.cs-3{
+     background-image: url('../asset/fyshwick.jpg');
+  background-position: center;
+  background-size: cover;
 }
 .cs4{
   grid-column: span 3;
   /* grid-row: span 2; */
+    background-image: url('../asset/airport--NSW.png');
+  background-position: center;
+  background-size: cover;
 }
 
+.cs-5{
+     background-image: url('../asset/residential-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
 .cs6{
+
   grid-column: span 2;
   grid-row:span 1;
+     background-image: url('../asset/Tamworth\ Regional\ Council\ -\ Standalone\ off-grid\ systems.jpg');
+  background-position: center;
+  background-size: cover;
 
   }
 .cs7{
   grid-column: span 2;
   grid-row:span 2;
   grid-row: 4;
+     background-image: url('../asset/swami-narayan.png');
+  background-position: center;
+  background-size: cover;
 }
 .cs8{
   grid-column: span 2;
+     background-image: url('../asset/residential-2.jpg');
+  background-position: center;
+  background-size: cover;
 }
 .blank {
   /* background-color: #300160; */
