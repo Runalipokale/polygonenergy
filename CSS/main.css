@@ -3857,6 +3857,9 @@ padding:0 55px;
 }
 /* emailer section*/
 .emailer-section{
+  background-image: url('../asset/gradient-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 70vh;
   background-color: #e8e8e7;
   display: flex;
@@ -3866,11 +3869,12 @@ padding:0 55px;
   padding: 10% !important;
 }
 .emailer-section h1{
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: 700;
   text-align: center;
   color: #474747;
   font-size: 6rem;
+  padding: 8rem;
 }
 .emailer-section button{
   background-color: #d70992;
