@@ -2926,14 +2926,12 @@ padding:0 55px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 80px 80px 0 80px;
 }
 .residential-sec-right{
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 80px 80px 0 80px;
 }
 .service-sec-btn{
   width: fit-content;
@@ -2945,6 +2943,7 @@ padding:0 55px;
   border:1px solid white;
   position: absolute;
   left: 85%;
+  top:20px;
 }
 .commercial-sec-right video{
   width: 100%;
