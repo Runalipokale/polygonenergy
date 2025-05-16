@@ -3290,7 +3290,7 @@ padding:0 55px;
 .cs-sec-left{
  background-color: #e8e8e7;
  display: flex;
- justify-content: center;
+ /* justify-content: center; */
  flex-direction: column;
  padding: 10%;
  /* color: #300160; */
