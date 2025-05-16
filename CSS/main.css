@@ -2953,10 +2953,7 @@ height: 40vw;
 }
 .residential-sec-right video{
   width: 100%;
-  height: 80%;
-  position: relative;
-  left: 5% !important;
-  top: 10% ;
+  height: fit-content;
 }
 .service-list{
   margin:25px;
