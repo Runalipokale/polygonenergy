@@ -2917,9 +2917,11 @@ padding:0 55px;
   font-weight: 700;
 }
 .commercial-sec-left{
-  width: 50%;
-  padding: 80px;
+  /* width: 50%;
+  padding: 80px; */
 
+  background: url('../asset/videos/ev-charging.mp4');
+  background-size: cover;
 }
 .commercial-sec-right{
   width: 60%;
@@ -3554,7 +3556,6 @@ padding:0 55px;
   border: 3px solid #d70992;
   height:40vh;
   width: 40%;
-
 }
 
 /* Tablet Devices (up to 1024px) */
