@@ -1907,6 +1907,7 @@ header {
   }
   .navigation .nav-list-ele{
     flex-direction: column;
+    color: #787276;
   }
   /* .linkedin-banner{
     width: 100vw; 
