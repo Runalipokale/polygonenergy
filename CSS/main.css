@@ -3003,7 +3003,7 @@ padding:0 55px;
 .service-div{
   display: flex;
   color: #fff;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-top: 10%;
 }
 .service-text{
@@ -3015,9 +3015,9 @@ padding:0 55px;
   font-size: 40px;
   width: 80px;
 }
-/* .service-num{
+.service-num{
   margin-right: 20px;
-} */
+}
 .residential-sec-service-num{
       margin-right: 10px;
 
