@@ -2353,12 +2353,12 @@ ol.custom-list--upperalpha > li:before {
   border-radius: 10rem;
   padding: 10px;
 }
-.service-text{
+/* .service-text{
   color: #300160;
   line-height:1.2;
   text-align:right;
   margin-right: 35px;
-}
+} */
 .button-sec-2 {
   margin-right: 35px;
   float: right !important;
@@ -3019,7 +3019,9 @@ padding:0 55px;
   margin-right: 20px;
 }
 .service-para{
- font-size: 2rem;  
+ font-size: 2rem;
+  text-align: left;
+  color: #fff;  
 }
 
 /* scroll effect */
