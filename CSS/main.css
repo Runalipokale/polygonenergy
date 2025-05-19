@@ -3989,7 +3989,11 @@ height: 40vw;
   }
 
   .emailer-section h1 {
-    font-size: 1.8rem;
+    font-size: 2rem !important;
+    text-align: center;
+  }
+    .emailer-section h4 {
+    font-size: 1.8rem !important;
     text-align: center;
   }
 
@@ -4003,6 +4007,25 @@ height: 40vw;
   }
 }
 
+@media (max-width: 600px) {
+  .emailer-section {
+    padding: 15% 5%;
+    height: auto;
+  }
+
+  .emailer-section h1 {
+    font-size: 1.7rem !important;
+    text-align: center;
+  }
+    
+  .emailer-section input {
+    height: 45px;
+  }
+
+  .emailer-section button {
+    width: 23vw;
+  }
+}
 
 /* .footer{
   margin-top: 50px;
