@@ -3028,31 +3028,7 @@ height: 40vw;
   opacity: 1;
   transform: translateY(0);
 }
-@media (max-width: 1024px) {
-  .commercial-sec,
-  .residential-sec {
-    flex-direction: column;
-    padding: 40px 20px;
-  }
 
-  .commercial-sec-left,
-  .residential-sec-left,
-  .commercial-sec-right,
-  .residential-sec-right {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .commercial-sec-title {
-    font-size: 3rem;
-    text-align: left;
-  }
-
-  .service-sec-btn {
-    position: static;
-    margin-bottom: 10px;
-    display: block;
-  }
 
   .commercial-sec-right video,
   .residential-sec-right video {
