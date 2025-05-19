@@ -3175,55 +3175,29 @@ height: 40vw;
 }
 
 @media (max-width: 1024px) {
-  .numbers-sec-col-upper {
-    grid-template-columns: 1fr; /* Stack timer and stats in one column */
+  .numbers-sec-inner-blocks {
+    flex-direction: column; /* Stack left and right vertically */
+    height: fit-content; /* Remove fixed height for flexibility */
+  }
+
+  .numbers-sec-inner-blocks-left,
+  .numbers-sec-inner-blocks-right {
+    width: 100%;
+    padding: 5%;
     text-align: center;
   }
 
-  .numbers-sec-upper-left h1 {
-    font-size: 8rem; /* Reduce timer size */
+  .numbers-sec-inner-blocks-right {
+    background-size: cover; /* Make image responsive */
+    min-height: 300px; /* Ensure some height for the background image */
   }
 
-  .numbers-sec-upper-right {
-    margin-top: 20px;
-  }
-
-  .numbers-sec-col {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
-  }
-}
-
-@media (max-width: 768px) {
   .Numbers-sec-title {
-    font-size: 3.5rem; /* Reduce title size */
-    text-align: center;
-  }
-
-  .numbers-sec-upper-left h1 {
     font-size: 6rem;
   }
-
-  .numbers-sec-col {
-    grid-template-columns: 1fr; /* 1 column for mobile */
-  }
-
-  .numbers-sec-col h1 {
-    font-size: 1.8rem;
-  }
-  .numbers-col{
-    text-align: center;
-  }
 }
 
-@media (max-width:450px) {
-  .numbers-sec-inner-blocks{
-   height:fit-content;
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-}
-}
+  
 /* capability-statement-sec */
 .capability-statement-sec{
   background-image: url("../asset/ask_for_capability_bg.jpeg");
