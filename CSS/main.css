@@ -3468,7 +3468,7 @@ height: 40vw;
 /* Mobile: 600px and below */
 @media (max-width: 600px) {
   .cs-sec-right {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     height: 90vh;
   }
 
