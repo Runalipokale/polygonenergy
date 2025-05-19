@@ -3794,6 +3794,16 @@ height: 40vw;
   }
 }
 
+@media (max-width: 940px) {
+  .gradient-text-sec{
+    height: 45vh;
+    padding: 2rem; 
+  }
+  .gradient-text-sec p{
+    font-size: 3.5rem !important;
+  }
+}
+
 @media (max-width: 796px) {
   .gradient-text-sec{
     height: 45vh;
