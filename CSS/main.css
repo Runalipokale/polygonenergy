@@ -3761,13 +3761,10 @@ height: 40vw;
   margin-top: 10px;
 }
 .testimonials-sec{
-  height: 60vh;
+  height: fit-content;
 }
 .testimonial-sec-title h1{
   font-size: 27px;
-}
-.testimonial-title-logo-container{
-  height: 130px;
 }
 .swiper-container{
   padding: 0px;
