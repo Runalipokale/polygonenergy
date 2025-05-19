@@ -3188,8 +3188,10 @@ height: 40vw;
   }
 
   .numbers-sec-inner-blocks-right {
-    background-size: cover; /* Make image responsive */
-    height: 130vh;
+    background-size: contain; /* Make image responsive */
+    min-height: 300px; /* Ensure some height for the background image */
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .Numbers-sec-title {
