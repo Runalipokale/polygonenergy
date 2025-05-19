@@ -3194,6 +3194,16 @@ height: 40vw;
     text-align: center;
   }
 }
+
+@media (max-width:450px) {
+  .numbers-sec-inner-blocks{
+   height:fit-content;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+}
 /* capability-statement-sec */
 .capability-statement-sec{
   background-image: url("../asset/ask_for_capability_bg.jpeg");
