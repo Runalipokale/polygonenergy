@@ -3805,7 +3805,7 @@ height: 40vw;
 }
 @media (max-width: 460px) {
   .gradient-text-sec{
-    height: 30vh;
+    height: 20vh;
   }
   .gradient-text-sec p{
     font-size: 2rem !important;
