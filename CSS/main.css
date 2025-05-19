@@ -3615,9 +3615,9 @@ height: 40vw;
 
 .testimonial-content{
   color: #5B1683;
-  font-size: 3rem;
+  font-size: 25px;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 
