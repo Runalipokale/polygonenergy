@@ -3028,7 +3028,10 @@ height: 40vw;
   opacity: 1;
   transform: translateY(0);
 }
-
+@media (max-width: 1024px) {
+  .service-sec-btn {
+    z-index: 10;
+  }
 
   .commercial-sec-right video,
   .residential-sec-right video {
