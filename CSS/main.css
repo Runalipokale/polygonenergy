@@ -3032,6 +3032,45 @@ height: 40vw;
   .service-sec-btn {
     z-index: 10;
   }
+}
+@media (max-width: 796px) {
+  .commercial-sec,
+  .residential-sec {
+    flex-direction: column;
+  }
+
+  .commercial-sec-left,
+  .residential-sec-left,
+  .commercial-sec-right,
+  .residential-sec-right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .commercial-sec-right,
+  .residential-sec-right {
+    position: relative;
+    height: 100vw; /* Make it square – height equals screen width */
+  }
+
+  .commercial-sec-right video,
+  .residential-sec-right video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .service-sec-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+  }
+}
+
 
   .commercial-sec-right video,
   .residential-sec-right video {
@@ -3066,7 +3105,7 @@ height: 40vw;
   .service-para {
     font-size: 16px;
   }
-}
+
 
 /* number sec */
 .numbers-sec{
