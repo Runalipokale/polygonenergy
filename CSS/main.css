@@ -3113,14 +3113,14 @@ height: 40vw;
     padding: 5%;
     color: #5B1683 
 ;
-    width: 40%;
+    width: 50%;
 }
 .numbers-sec-inner-blocks-right{
    background-image: url('../asset/numbers-matter-sec-bg.png');
       background-position: center;
    background-size: contain;
    background-repeat: no-repeat;
-   width: 60%;
+   width: 50%;
 }
 .Numbers-sec-title{
   font-size: 10rem;
