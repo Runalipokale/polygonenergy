@@ -3189,7 +3189,7 @@ height: 40vw;
 
   .numbers-sec-inner-blocks-right {
     background-size: cover; /* Make image responsive */
-    min-height: 300px; /* Ensure some height for the background image */
+    height: 130vh;
   }
 
   .Numbers-sec-title {
