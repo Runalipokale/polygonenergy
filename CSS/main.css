@@ -3516,6 +3516,12 @@ height: 40vw;
   /* .cs4 img{
     height: 80% !important;
   } */
+
+  .cs7{
+    grid-row: 5;
+    grid-column: span 1;
+  }
+
   .cs8{
     grid-column: span 3 !important;
     grid-row: span 2;
