@@ -3953,13 +3953,31 @@ height: 40vw;
     font-size: 36px;
     text-align: center;
   }
+  .emailer-section h4{
+    font-size: 3rem;
+  }
 
   .emailer-section input {
-    width: 60vw;
+    width: 50vw;
   }
 
   .emailer-section button {
-    width: 25vw;
+    width: 20vw;
+  }
+}
+@media (max-width: 993px) {
+
+  .emailer-section h4{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 796px) {
+  .emailer-section h1{
+    font-size: 36px !important;
+  }
+  .emailer-section h4{
+    font-size: 2rem;
   }
 }
 
@@ -3971,22 +3989,8 @@ height: 40vw;
   }
 
   .emailer-section h1 {
-    font-size: 24px;
-    line-height: 1.4;
+    font-size: 1.8rem;
     text-align: center;
-  }
-
-  .emailer-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .emailer-section input,
-  .emailer-section button {
-    width: 90%;
-    margin: 10px 0;
   }
 
   .emailer-section input {
