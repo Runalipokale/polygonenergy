@@ -3473,16 +3473,20 @@ height: 40vw;
   }
 
   .cs-title {
-    font-size: 7rem;
+    font-size: 4rem;
   }
 
-  .cs-name {
+  /* .cs-name {
     font-size: 1rem;
     padding: 8px;
-  }
+  } */
 
-  .cs-sec-left h2 {
+  /* .cs-sec-left h2 {
     font-size: 1.8rem;
+  } */
+
+  .cs-sec-subtext{
+    font-size: 18px;
   }
   .cs img{
     background-size: cover;
