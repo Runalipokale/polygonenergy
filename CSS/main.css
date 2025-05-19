@@ -4007,7 +4007,7 @@ height: 40vw;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .emailer-section {
     padding: 15% 5%;
     height: auto;
@@ -4024,6 +4024,9 @@ height: 40vw;
 
   .emailer-section button {
     width: 23vw;
+  }
+    .emailer-section button {
+    padding: 0;
   }
 }
 
