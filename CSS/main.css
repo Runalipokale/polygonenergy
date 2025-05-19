@@ -3399,6 +3399,12 @@ height: 40vw;
   font-size: 5.5rem;
 }
 }
+@media (max-width: 1373px) {
+
+.cs-title{
+  font-size: 5.2rem;
+}
+}
 /* Tablet: 768px and below */
 @media (max-width: 1024px) {
   .cs-sec {
