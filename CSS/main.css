@@ -3393,10 +3393,10 @@ height: 40vw;
 /* Default grid for large screens stays unchanged */
 
 /* macbook 13inch */
-@media (max-width: 1350px) {
+@media (max-width: 1500px) {
 
 .cs-title{
-  font-size: 5rem;
+  font-size: 5.5rem;
 }
 }
 /* Tablet: 768px and below */
