@@ -2123,6 +2123,9 @@ header {
     width: 30px;
     display: block;
   }
+  .nav-list-ele{
+    display: none;
+  }
   .hamburger-menu span::after,
   .hamburger-menu span::before {
     content: "";
