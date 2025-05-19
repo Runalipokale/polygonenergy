@@ -3539,9 +3539,7 @@ height: 40vw;
      font-size: 6rem !important;
 
 }
-.video-sec-title{
-   font-size: 6rem !important;
-}
+
 .video-sec video{
   margin: 50px 20px;
   border-radius: 8px;
@@ -3563,7 +3561,7 @@ height: 40vw;
 
 /* Mobile Devices (up to 768px) */
 @media (max-width: 768px) {
-  .video-sec-title {
+  .video-sec-title h1 {
     font-size: 2rem !important;
     padding: 0 10px;
   }
