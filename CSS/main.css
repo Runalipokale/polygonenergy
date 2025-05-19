@@ -3760,6 +3760,18 @@ height: 40vw;
   font-size: 13px;
   margin-top: 10px;
 }
+.testimonials-sec{
+  height: 60vh;
+}
+.testimonial-sec-title h1{
+  font-size: 27px;
+}
+.testimonial-title-logo-container{
+  height: 130px;
+}
+.swiper-container{
+  padding: 0px;
+}
 }
 
 
