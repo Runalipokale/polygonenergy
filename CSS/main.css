@@ -3758,6 +3758,7 @@ height: 40vw;
 @media (max-width:450px) {
   .testimonial-content{
   font-size: 13px;
+  margin-top: 10px;
 }
 }
 
