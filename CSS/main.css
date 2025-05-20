@@ -1027,6 +1027,8 @@ a:hover {
 .solutions .link__item a,
 .testimonial .wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-services .card__body::before {
   content: "";
