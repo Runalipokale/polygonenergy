@@ -910,7 +910,7 @@ h5.logo {
 
 
 
-    
+    <script src="./js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <script>
       	new Swiper(".myTestimonial", {
@@ -928,6 +928,44 @@ h5.logo {
           prevEl: ".swiper-button-prev",
         },
       });
+</script>
+<script>
+   //hamburger menu functionality
+  document.addEventListener("DOMContentLoaded", function () {
+    // Hamburger menu toggle
+    let menuActive = document.querySelector(".hamburger-menu");
+    menuActive.onclick = function () {
+      document.querySelector(".navigation").classList.toggle("active");
+    };
+    
+    //dropdown header menu 
+    const toggles = document.querySelectorAll(".nav-toggle-btn"); // Target each toggle button
+
+    toggles.forEach((toggle) => {
+      toggle.addEventListener("click", (e) => {
+        const menu = toggle.closest(".submenu").querySelector(".nav-list"); // Get the submenu
+        const icon = toggle.querySelector(".dropdown"); // Get the icon
+    
+        // Toggle the menu visibility
+        if (menu.style.display === "block") {
+          menu.style.display = "none"; // Hide submenu
+          icon.classList.remove("fa-caret-up"); // Reset to down arrow
+          icon.classList.add("fa-caret-down");
+        } else {
+          // Close other open menus
+          document.querySelectorAll(".nav-list").forEach((m) => (m.style.display = "none"));
+          document.querySelectorAll(".dropdown").forEach((i) => {
+            i.classList.remove("fa-caret-up");
+            i.classList.add("fa-caret-down");
+          });
+    
+          menu.style.display = "block"; // Show submenu
+          icon.classList.remove("fa-caret-down"); // Change to up arrow
+          icon.classList.add("fa-caret-up");
+        }
+      });
+    });
+
 </script>
 <script>
 
