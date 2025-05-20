@@ -2123,6 +2123,9 @@ header {
     width: 30px;
     display: block;
   }
+  .cta-btn{
+    width: 40vw;
+  }
   /* .nav-list-ele{
     display: none;
   } */
