@@ -328,66 +328,45 @@ h5.logo {
 </head>
  <body class="home body-homepage">   
 	<header class="header">
-		<div class="container">
-			<div class="header-wrap">
-				<div class="site-logo">
-					<a href="/">
-						 <img src="./asset/logo.png" alt="polygon energy logo" class="banner-logo">
-					</a>
-				</div>
-				<div class="hamburger-menu">
-					<span></span>
-				</div>
-          <ul class="nav-list-ele">
-            <li class="nav-item submenu active" >
-              <span class="nav-toggle-btn ">
-                solutions &nbsp;
-                <button class="nav-toggle">
-                  <i class="fa-solid fa-caret-down dropdown"></i>
-                </button>
-              </span>
-              <ul class="nav-list">
-                <li class="nav-item"><a href="solutions.html">services</a></li>
-                <li class="nav-item"><a href="solutions.html#our-products">our products</a></li>
-                <li class="nav-item"><a href="funding-your-solar-dream.html">Funding your solar dream</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a href="case-studies.html">case studies</a></li>
-            <li class="nav-item"><a href="savings-calculator.html">Savings Calculator</a></li>
-            <!-- <li class="nav-item submenu">
-              <span class="nav-toggle-btn">
-                Resources &nbsp;
-                <button class="nav-toggle">
-                  <i class="fa-solid fa-caret-down dropdown"></i>
-                </button>
-              </span>
-              <ul class="nav-list">
-                <li class="nav-item"><a href="blog.html">Blogs</a></li>
-                <li class="nav-item"><a href="engineering-that-works.html">Engineering that works</a></li>
-              </ul>
-            </li> -->
-            <li class="nav-item"><a href="request-a-quote.html">Request a quote</a></li>
-            <!-- <li class="nav-item submenu">
-              <span class="nav-toggle-btn">
-                about us &nbsp;
-                <button class="nav-toggle">
-                  <i class="fa-solid fa-caret-down dropdown"></i>
-                </button>
-              </span>
-              <ul class="nav-list">
-                <li class="nav-item"><a href="about-us.html#brand-story">brand story</a></li>
-                <li class="nav-item"><a href="directors-desk.html">director's desk</a></li>
-                <li class="nav-item"><a href="empowering-you.html">empowering you</a></li>
-                <li class="nav-item"><a href="why-us.html">why us?</a></li>
-                <li class="nav-item"><a href="join-us.html">join us</a></li>
-              </ul>
-            </li> -->
-            <li class="nav-item"><a href="contact-us.html"><img src="asset/icons/contact.svg" alt="contact-us"></a></li>
-                <button class="cta-btn">CTA</button>
-          </ul>
+  <div class="container">
+    <div class="header-wrap">
+      <div class="site-logo">
+        <a href="/">
+          <img src="./asset/logo.png" alt="polygon energy logo" class="banner-logo">
+        </a>
+      </div>
       
-        </nav>        
-	</header>
+      <div class="hamburger-menu">
+        <span></span>
+      </div>
+
+      <!-- ✅ FIX: Add .navigation wrapper -->
+      <nav class="navigation">
+        <ul class="nav-list-ele">
+          <li class="nav-item submenu active">
+            <span class="nav-toggle-btn">
+              solutions &nbsp;
+              <button class="nav-toggle">
+                <i class="fa-solid fa-caret-down dropdown"></i>
+              </button>
+            </span>
+            <ul class="nav-list">
+              <li class="nav-item"><a href="solutions.html">services</a></li>
+              <li class="nav-item"><a href="solutions.html#our-products">our products</a></li>
+              <li class="nav-item"><a href="funding-your-solar-dream.html">Funding your solar dream</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="case-studies.html">case studies</a></li>
+          <li class="nav-item"><a href="savings-calculator.html">Savings Calculator</a></li>
+          <li class="nav-item"><a href="request-a-quote.html">Request a quote</a></li>
+          <li class="nav-item"><a href="contact-us.html"><img src="asset/icons/contact.svg" alt="contact-us"></a></li>
+          <button class="cta-btn">CTA</button>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
 <div class="carousel slide" data-ride="carousel" id="myCarousel"><!-- Indicators -->
 <ol class="carousel-indicators">
 	<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
@@ -964,6 +943,7 @@ h5.logo {
           icon.classList.add("fa-caret-up");
         }
       });
+    });
     });
 
 </script>
